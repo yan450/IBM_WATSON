@@ -1,0 +1,9 @@
+\\belroncanada.com\home\users\yfrenette\visual studio 2010\Projects\test_watson_UK\test_watson_UK\bin\Debug\test_watson_UK.exe
+\\belroncanada.com\home\users\yfrenette\visual studio 2010\Projects\test_watson_UK\test_watson_UK\bin\Debug\test_watson_UK.pdb
+\\belroncanada.com\home\users\yfrenette\visual studio 2010\Projects\test_watson_UK\test_watson_UK\bin\Debug\test_watson_UK.xml
+\\belroncanada.com\home\users\yfrenette\visual studio 2010\Projects\test_watson_UK\test_watson_UK\obj\x86\Debug\test_watson_UK.Form1.resources
+\\belroncanada.com\home\users\yfrenette\visual studio 2010\Projects\test_watson_UK\test_watson_UK\obj\x86\Debug\test_watson_UK.Resources.resources
+\\belroncanada.com\home\users\yfrenette\visual studio 2010\Projects\test_watson_UK\test_watson_UK\obj\x86\Debug\test_watson_UK.vbproj.GenerateResource.Cache
+\\belroncanada.com\home\users\yfrenette\visual studio 2010\Projects\test_watson_UK\test_watson_UK\obj\x86\Debug\test_watson_UK.exe
+\\belroncanada.com\home\users\yfrenette\visual studio 2010\Projects\test_watson_UK\test_watson_UK\obj\x86\Debug\test_watson_UK.xml
+\\belroncanada.com\home\users\yfrenette\visual studio 2010\Projects\test_watson_UK\test_watson_UK\obj\x86\Debug\test_watson_UK.pdb
