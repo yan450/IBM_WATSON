@@ -10,7 +10,7 @@ Public Class Form1
 
 
         ' Create a request using a URL that can receive a post.   
-        Dim request As WebRequest = WebRequest.Create("https://y450.mybluemix.net/SEND_AUDIO_FILE_LINK")
+        Dim request As WebRequest = WebRequest.Create("https://y450.mybluemix.net/SEND_AUDIO_FILE_LINK_SENTIMENT")
 
         request.Method = "POST"
         request.Timeout = 1000 * 60 * 10
@@ -64,4 +64,7 @@ Public Class Form1
 
     End Function
 
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

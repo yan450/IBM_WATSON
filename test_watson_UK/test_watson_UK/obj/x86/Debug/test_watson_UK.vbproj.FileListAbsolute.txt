@@ -7,3 +7,12 @@
 \\belroncanada.com\home\users\yfrenette\visual studio 2010\Projects\test_watson_UK\test_watson_UK\obj\x86\Debug\test_watson_UK.exe
 \\belroncanada.com\home\users\yfrenette\visual studio 2010\Projects\test_watson_UK\test_watson_UK\obj\x86\Debug\test_watson_UK.xml
 \\belroncanada.com\home\users\yfrenette\visual studio 2010\Projects\test_watson_UK\test_watson_UK\obj\x86\Debug\test_watson_UK.pdb
+c:\Yan Source\GitHub\IBM_WATSON\test_watson_UK\test_watson_UK\obj\x86\Debug\test_watson_UK.exe
+c:\Yan Source\GitHub\IBM_WATSON\test_watson_UK\test_watson_UK\obj\x86\Debug\test_watson_UK.xml
+c:\Yan Source\GitHub\IBM_WATSON\test_watson_UK\test_watson_UK\obj\x86\Debug\test_watson_UK.pdb
+c:\Yan Source\GitHub\IBM_WATSON\test_watson_UK\test_watson_UK\bin\Debug\test_watson_UK.exe
+c:\Yan Source\GitHub\IBM_WATSON\test_watson_UK\test_watson_UK\bin\Debug\test_watson_UK.pdb
+c:\Yan Source\GitHub\IBM_WATSON\test_watson_UK\test_watson_UK\bin\Debug\test_watson_UK.xml
+c:\Yan Source\GitHub\IBM_WATSON\test_watson_UK\test_watson_UK\obj\x86\Debug\test_watson_UK.Form1.resources
+c:\Yan Source\GitHub\IBM_WATSON\test_watson_UK\test_watson_UK\obj\x86\Debug\test_watson_UK.Resources.resources
+c:\Yan Source\GitHub\IBM_WATSON\test_watson_UK\test_watson_UK\obj\x86\Debug\test_watson_UK.vbproj.GenerateResource.Cache
