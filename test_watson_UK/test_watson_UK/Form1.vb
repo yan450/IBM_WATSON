@@ -13,7 +13,7 @@ Public Class Form1
 
         Dim MySplitCall As New SplitCall
 
-        MySplitCall = Get_Call_Array("1002625786")
+        MySplitCall = Get_Call_Array("1002379925")
 
         Send_Bulk_Wav(MySplitCall.Arr_Calls)
 
@@ -78,6 +78,26 @@ Public Class Form1
             pArrCalls(20) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
             pArrCalls(21) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
             pArrCalls(22) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+
+        ElseIf Name = "1002379925" Then
+            ReDim pArrCalls(14)
+
+            pArrCalls(0) = "Step 4_1002379925_1002379850_5a014d3f38e4d13e6a5fe83c_01.wav"
+            pArrCalls(1) = "Step 4_1002379925_1002379850_5a014d3f38e4d13e6a5fe83c_02.wav"
+            pArrCalls(2) = "Step 4_1002379925_1002379850_5a014d3f38e4d13e6a5fe83c_03.wav"
+            pArrCalls(3) = "Step 4_1002379925_1002379850_5a014d3f38e4d13e6a5fe83c_04.wav"
+            pArrCalls(4) = "Step 4_1002379925_1002379850_5a014d3f38e4d13e6a5fe83c_05.wav"
+            pArrCalls(5) = "Step 4_1002379925_1002379850_5a014d3f38e4d13e6a5fe83c_06.wav"
+            pArrCalls(6) = "Step 4_1002379925_1002379850_5a014d3f38e4d13e6a5fe83c_07.wav"
+            pArrCalls(7) = "Step 4_1002379925_1002379850_5a014d3f38e4d13e6a5fe83c_08.wav"
+            pArrCalls(8) = "Step 4_1002379925_1002379850_5a014d3f38e4d13e6a5fe83c_09.wav"
+            pArrCalls(9) = "Step 4_1002379925_1002379850_5a014d3f38e4d13e6a5fe83c_10.wav"
+            pArrCalls(10) = "Step 4_1002379925_1002379850_5a014d3f38e4d13e6a5fe83c_11.wav"
+            pArrCalls(11) = "Step 4_1002379925_1002379850_5a014d3f38e4d13e6a5fe83c_12.wav"
+            pArrCalls(12) = "Step 4_1002379925_1002379850_5a014d3f38e4d13e6a5fe83c_13.wav"
+            pArrCalls(13) = "Step 4_1002379925_1002379850_5a014d3f38e4d13e6a5fe83c_14.wav"
+            pArrCalls(14) = "Step 4_1002379925_1002379850_5a014d3f38e4d13e6a5fe83c_15.wav"
+
 
         ElseIf Name = "1002623198" Then
             ReDim pArrCalls(25)
@@ -171,7 +191,7 @@ Public Class Form1
 
         For Each sCall In ArrCalls
 
-            Me.txtResponse.Text &= "====================================================" & vbCrLf & Watson_Tone(sCall) & vbCrLf & "===================================================="
+            Me.txtResponse.Text &= "====================================================" & vbCrLf & Watson_Sentiment(sCall) & vbCrLf & "===================================================="
             Me.Refresh()
             NbrSec += 1
             Me.Text = NbrSec
