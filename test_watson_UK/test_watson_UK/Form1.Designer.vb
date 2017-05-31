@@ -34,7 +34,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.Location = New System.Drawing.Point(12, 12)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(260, 23)
+        Me.Button1.Size = New System.Drawing.Size(884, 23)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Start"
         Me.Button1.UseVisualStyleBackColor = True
@@ -47,7 +47,8 @@ Partial Class Form1
         Me.txtResponse.Location = New System.Drawing.Point(12, 42)
         Me.txtResponse.Multiline = True
         Me.txtResponse.Name = "txtResponse"
-        Me.txtResponse.Size = New System.Drawing.Size(260, 208)
+        Me.txtResponse.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.txtResponse.Size = New System.Drawing.Size(884, 389)
         Me.txtResponse.TabIndex = 1
         '
         'Timer1
@@ -59,7 +60,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.ClientSize = New System.Drawing.Size(908, 443)
         Me.Controls.Add(Me.txtResponse)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
