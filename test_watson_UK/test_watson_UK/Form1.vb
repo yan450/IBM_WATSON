@@ -13,7 +13,7 @@ Public Class Form1
 
         Dim MySplitCall As New SplitCall
 
-        MySplitCall = Get_Call_Array("952085")
+        MySplitCall = Get_Call_Array("1002625786")
 
         Send_Bulk_Wav(MySplitCall.Arr_Calls)
 
@@ -55,29 +55,85 @@ Public Class Form1
         ElseIf Name = "939509" Then
             ReDim pArrCalls(21)
 
-            pArrCalls(0) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(1) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(2) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(3) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(4) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(5) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(6) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(7) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(8) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(9) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(10) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(11) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(12) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(13) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(14) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(15) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(16) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(17) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(18) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(19) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(20) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(21) = "1137_939509-20170404-080750-5199645900_01.wav"
-            pArrCalls(22) = "1137_939509-20170404-080750-5199645900_01.wav"
+            pArrCalls(0) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(1) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(2) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(3) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(4) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(5) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(6) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(7) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(8) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(9) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(10) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(11) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(12) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(13) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(14) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(15) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(16) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(17) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(18) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(19) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(20) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(21) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(22) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+
+        ElseIf Name = "1002623198" Then
+            ReDim pArrCalls(25)
+
+            pArrCalls(0) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(1) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_02.wav"
+            pArrCalls(2) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_03.wav"
+            pArrCalls(3) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_04.wav"
+            pArrCalls(4) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_05.wav"
+            pArrCalls(5) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_06.wav"
+            pArrCalls(6) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_07.wav"
+            pArrCalls(7) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_08.wav"
+            pArrCalls(8) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_09.wav"
+            pArrCalls(9) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_10.wav"
+            pArrCalls(10) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_11.wav"
+            pArrCalls(11) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_12.wav"
+            pArrCalls(12) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_13.wav"
+            pArrCalls(13) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_14.wav"
+            pArrCalls(14) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_15.wav"
+            pArrCalls(15) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_16.wav"
+            pArrCalls(16) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_17.wav"
+            pArrCalls(17) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_18.wav"
+            pArrCalls(18) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_19.wav"
+            pArrCalls(19) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_20.wav"
+            pArrCalls(20) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_21.wav"
+            pArrCalls(21) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_22.wav"
+            pArrCalls(22) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_23.wav"
+            pArrCalls(23) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_24.wav"
+            pArrCalls(24) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_25.wav"
+            pArrCalls(25) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_26.wav"
+
+        ElseIf Name = "1002625786" Then
+            ReDim pArrCalls(20)
+
+            pArrCalls(0) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_01.wav"
+            pArrCalls(1) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_02.wav"
+            pArrCalls(2) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_03.wav"
+            pArrCalls(3) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_04.wav"
+            pArrCalls(4) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_05.wav"
+            pArrCalls(5) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_06.wav"
+            pArrCalls(6) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_07.wav"
+            pArrCalls(7) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_08.wav"
+            pArrCalls(8) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_09.wav"
+            pArrCalls(9) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_10.wav"
+            pArrCalls(10) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_11.wav"
+            pArrCalls(11) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_12.wav"
+            pArrCalls(12) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_13.wav"
+            pArrCalls(13) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_14.wav"
+            pArrCalls(14) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_15.wav"
+            pArrCalls(15) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_16.wav"
+            pArrCalls(16) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_17.wav"
+            pArrCalls(17) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_18.wav"
+            pArrCalls(18) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_19.wav"
+            pArrCalls(19) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_20.wav"
+            pArrCalls(20) = "Step4_1002625786_1002625749_cd16a01963444d7432faa37c_21.wav"
+
 
         ElseIf Name = "952085" Then
 
@@ -131,7 +187,7 @@ Public Class Form1
         Dim Sentiment_Value As String = ""
 
         ' Create a request using a URL that can receive a post.   
-        Dim request As WebRequest = WebRequest.Create("https://y450.mybluemix.net/SEND_AUDIO_FILE_LINK_SENTIMENT")
+        Dim request As WebRequest = WebRequest.Create("https://belrontest1.eu-gb.mybluemix.net/SEND_AUDIO_FILE_LINK_SENTIMENT")
 
         request.Method = "POST"
         request.Timeout = 1000 * 60 * 10
@@ -174,7 +230,7 @@ Public Class Form1
     Private Function Watson_Tone(ByVal WAVE_LINK As String) As String
         Dim Tone_Value As String = ""
 
-        ' Create a request using a URL that can receive a post.   
+        ' Create a request using a URL that can receive a post.   https://belrontest1.eu-gb.mybluemix.net/red/#2017_ibm_hackathon
         Dim request As WebRequest = WebRequest.Create("https://y450.mybluemix.net/SEND_AUDIO_FILE_LINK_TONE")
 
         request.Method = "POST"
