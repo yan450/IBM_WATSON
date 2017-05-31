@@ -17,6 +17,8 @@ Public Class Form1
 
         Send_Bulk_Wav(MySplitCall.Arr_Calls)
 
+        MsgBox("Done!")
+
     End Sub
 
     Public Function Get_Call_Array(ByVal Name As String) As SplitCall
@@ -113,7 +115,13 @@ Public Class Form1
 
         For Each sCall In ArrCalls
 
-            Me.txtResponse.Text &= "====================================================" & Chr(13) & Watson_Sentiment(sCall) & Chr(13) & "===================================================="
+            Me.txtResponse.Text &= "====================================================" & vbCrLf & Watson_Tone(sCall) & vbCrLf & "===================================================="
+            Me.Refresh()
+            NbrSec += 1
+            Me.Text = NbrSec
+            Me.Refresh()
+
+            Threading.Thread.Sleep(2000)
 
         Next
 
@@ -167,7 +175,7 @@ Public Class Form1
         Dim Tone_Value As String = ""
 
         ' Create a request using a URL that can receive a post.   
-        Dim request As WebRequest = WebRequest.Create("https://y450.mybluemix.net/SEND_AUDIO_FILE_LINK_SENTIMENT")
+        Dim request As WebRequest = WebRequest.Create("https://y450.mybluemix.net/SEND_AUDIO_FILE_LINK_TONE")
 
         request.Method = "POST"
         request.Timeout = 1000 * 60 * 10
@@ -184,9 +192,6 @@ Public Class Form1
         ' Write the data to the request stream.  
         dataStream.Write(byteArray, 0, byteArray.Length)
         ' Close the Stream object.  
-
-        txtResponse.Text = "SENT!"
-        Me.Refresh()
 
         dataStream.Close()
         'Get the response.  
@@ -211,10 +216,4 @@ Public Class Form1
     End Function
 
 
-
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        NbrSec += 1
-        Me.Text = NbrSec
-        Me.Refresh()
-    End Sub
 End Class
