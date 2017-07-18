@@ -1,0 +1,7 @@
+C:\GitHub\IBM_WATSON\WatsonHackathon\Logic\bin\Debug\Logic.dll
+C:\GitHub\IBM_WATSON\WatsonHackathon\Logic\bin\Debug\Logic.pdb
+C:\GitHub\IBM_WATSON\WatsonHackathon\Logic\bin\Debug\Newtonsoft.Json.dll
+C:\GitHub\IBM_WATSON\WatsonHackathon\Logic\bin\Debug\Newtonsoft.Json.xml
+C:\GitHub\IBM_WATSON\WatsonHackathon\Logic\obj\Debug\Logic.dll
+C:\GitHub\IBM_WATSON\WatsonHackathon\Logic\obj\Debug\Logic.pdb
+C:\GitHub\IBM_WATSON\WatsonHackathon\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache

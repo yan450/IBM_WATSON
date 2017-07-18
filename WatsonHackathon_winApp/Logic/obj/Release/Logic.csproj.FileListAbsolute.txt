@@ -1,0 +1,6 @@
+C:\GitHub\IBM_WATSON\WatsonHackathon\Logic\bin\Release\Logic.dll
+C:\GitHub\IBM_WATSON\WatsonHackathon\Logic\bin\Release\Logic.pdb
+C:\GitHub\IBM_WATSON\WatsonHackathon\Logic\bin\Release\Newtonsoft.Json.dll
+C:\GitHub\IBM_WATSON\WatsonHackathon\Logic\bin\Release\Newtonsoft.Json.xml
+C:\GitHub\IBM_WATSON\WatsonHackathon\Logic\obj\Release\Logic.dll
+C:\GitHub\IBM_WATSON\WatsonHackathon\Logic\obj\Release\Logic.pdb
